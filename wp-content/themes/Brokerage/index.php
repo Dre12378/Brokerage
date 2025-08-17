@@ -10,7 +10,7 @@ get_header();
   <div class="container py-5 py-lg-6">
     <div class="row align-items-center g-5">
       <div class="col-lg-7">
-        <span class="badge text-bg-primary mb-3">Brokerage Try testasdsa</span>
+        <span class="badge text-bg-primary mb-3">Brokerage Try Try to PR</span>
         <h1 class="display-5 fw-bold lh-tight mb-3">
           Trade with confidence on a secure, modern platform
         </h1>

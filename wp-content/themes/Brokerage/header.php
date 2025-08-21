@@ -59,13 +59,13 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo esc_url( home_url('/pricing/') ); ?>">Pricing</a>
+            <a class="nav-link" href="<?php echo esc_url( get_permalink( get_page_by_path('about') ) ); ?>">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo esc_url( get_permalink( get_option('page_for_posts') ) ); ?>">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo esc_url( home_url('/contact/') ); ?>">Contact</a>
+            <a class="nav-link" href="<?php echo esc_url( get_permalink( get_page_by_path('contact us') ) ); ?>">Contact Us</a>
           </li>
         </ul>
 

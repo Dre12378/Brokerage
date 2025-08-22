@@ -40,5 +40,12 @@ get_header();
   </div>
 </section>
 
+<!-- TRUST STRIP -->
+<section class="bg-white">
+  <div class="container py-4">
+
+  </div>
+</section>
+
 
 <?php get_footer(); ?>

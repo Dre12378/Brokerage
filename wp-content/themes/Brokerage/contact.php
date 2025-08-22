@@ -12,7 +12,7 @@ get_header();
       <div class="col-lg-7">
         <span class="badge text-bg-primary mb-3">Brokerage Test Branch Environment</span>
         <h1 class="display-5 fw-bold lh-tight mb-3">
-          Contact Us
+          Contact Us.
         </h1>
         <p class="lead text-secondary mb-4">
           Powerful tools, transparent pricing, and institutional-grade security—
@@ -37,6 +37,13 @@ get_header();
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="bg-white">
+  <div class="container py-4">
+
   </div>
 </section>
 

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: About Page (Brokerage)
  */
@@ -19,10 +20,10 @@ get_header();
           all in a simple dashboard your team will love.
         </p>
         <div class="d-flex gap-3">
-          <a href="<?php echo esc_url( home_url('/contact') ); ?>" class="btn btn-primary btn-lg px-4">
+          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-primary btn-lg px-4">
             Request a Demo
           </a>
-          <a href="<?php echo esc_url( home_url('/about') ); ?>" class="btn btn-outline-secondary btn-lg px-4">
+          <a href="<?php echo esc_url(home_url('/about')); ?>" class="btn btn-outline-secondary btn-lg px-4">
             Learn More
           </a>
         </div>
@@ -134,7 +135,7 @@ get_header();
         <p class="mb-0 opacity-75">Talk to our team and see a tailored demo in minutes.</p>
       </div>
       <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
-        <a href="<?php echo esc_url( home_url('/contact') ); ?>" class="btn btn-light btn-lg">
+        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-light btn-lg">
           Get Started
         </a>
       </div>
@@ -143,3 +144,24 @@ get_header();
 </section>
 
 <?php get_footer(); ?>
+
+
+<section class="testimonial">
+  <div class="container-fluid">
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <div class="d-flex flex-column gap-20">
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

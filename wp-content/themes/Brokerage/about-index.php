@@ -8,103 +8,106 @@ get_header();
 
 <!-- HERO -->
 <section class="bg-light border-bottom">
-  <div class="container py-5 py-lg-6">
-    <div class="row align-items-center g-5">
-      <div class="col-lg-7">
-        <span class="badge text-bg-primary mb-3">Brokerage Test Branch Environment</span>
-        <h1 class="display-5 fw-bold lh-tight mb-3">
-          About Us
-        </h1>
-        <p class="lead text-secondary mb-4">
-          Powerful tools, transparent pricing, and institutional-grade security—
-          all in a simple dashboard your team will love.
-        </p>
-        <div class="d-flex gap-3">
-          <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-primary btn-lg px-4">
-            Request a Demo
-          </a>
-          <a href="<?php echo esc_url(home_url('/about')); ?>" class="btn btn-outline-secondary btn-lg px-4">
-            Learn More
-          </a>
+  <div class="container-fluid py-5 py-lg-6">
+    <div class="wrapper">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="badge text-bg-primary mb-3">Brokerage Test Branch Environment</span>
+          <h1 class="display-5 fw-bold lh-tight mb-3">
+            About Us
+          </h1>
+          <p class="lead text-secondary mb-4">
+            Powerful tools, transparent pricing, and institutional-grade security—
+            all in a simple dashboard your team will love.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="btn btn-primary btn-lg px-4">
+              Request a Demo
+            </a>
+            <a href="<?php echo esc_url(home_url('/about')); ?>" class="btn btn-outline-secondary btn-lg px-4">
+              Learn More
+            </a>
+          </div>
+          <div class="text-muted small mt-3">No commitment. Quick onboarding.</div>
         </div>
-        <div class="text-muted small mt-3">No commitment. Quick onboarding.</div>
-      </div>
-      <div class="col-lg-5">
-        <div class="ratio ratio-16x9 rounded-4 shadow-sm bg-white d-flex align-items-center justify-content-center">
-          <div class="text-center p-4">
-            <i class="bi bi-graph-up-arrow display-3 text-primary"></i>
-            <p class="mt-3 mb-0">Real-time insights & risk controls</p>
+        <div class="col-lg-5">
+          <div class="ratio ratio-16x9 rounded-4 shadow-sm bg-white d-flex align-items-center justify-content-center">
+            <div class="text-center p-4">
+              <i class="bi bi-graph-up-arrow display-3 text-primary"></i>
+              <p class="mt-3 mb-0">Real-time insights & risk controls</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <!--  -->
-  <nav class="container-fluid px-0">
-    <div class="wrapper">
-      <div class="row gx-0">
-        <div class="col-12">
-          <div class="nav nav-tabs border-0 border-bottom w-100" id="nav-tab" role="tablist">
-            <!-- <button class="nav-link active flex-fill text-center border-0 border-bottom border-primary"  -->
-            <button class="nav-link active flex-fill text-center border-0 border-bottom"
-                    id="nav-home-tab" 
-                    data-bs-toggle="tab" 
-                    data-bs-target="#nav-home" 
-                    type="button" role="tab" 
-                    aria-controls="nav-home" 
-                    aria-selected="true">
-              <h6>Who We Are</h6> 
-            </button>
+</section>
+<!--  -->
+<nav class="container-fluid">
+  <div class="wrapper">
+    <div class="row gx-0">
+      <div class="col-12">
+        <div class="nav nav-tabs border-0 border-bottom w-100" id="nav-tab" role="tablist">
+          <!-- <button class="nav-link active flex-fill text-center border-0 border-bottom border-primary"  -->
+          <button class="nav-link active flex-fill text-center border-0 border-bottom"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button" role="tab"
+            aria-controls="nav-home"
+            aria-selected="true">
+            <h6>Who We Are</h6>
+          </button>
 
-            <button class="nav-link flex-fill text-center border-0 border-bottom" 
-                    id="nav-profile-tab" 
-                    data-bs-toggle="tab" 
-                    data-bs-target="#nav-profile" 
-                    type="button" role="tab" 
-                    aria-controls="nav-profile" 
-                    aria-selected="false">
-              <h6>Our Commitment</h6> 
-            </button>
-          </div>
+          <button class="nav-link flex-fill text-center border-0 border-bottom"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button" role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false">
+            <h6>Our Commitment</h6>
+          </button>
         </div>
       </div>
     </div>
-  </nav>
-
-</section>
+  </div>
+</nav>
 
 <!-- TRUST STRIP -->
-<section class="bg-white">
-  <div class="container-fluid py-5">
-    <div class="tab-content" id="nav-tabContent">
+<section class="bg-white about-tabs">
+  <div class="container-fluid">
+    <div class="wrapper">
 
-      <div class="tab-pane fade active show py-2 py-md-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-        <div class="d-flex flex-column flex-md-row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0 me-0 me-md-5">
-              <h2 class="mb-5">
-                Building Trust Through Transparency
-              </h2>
-              <p class="text-secondary mb-0">
-                  At Gold Group Limited, our priority is protecting and growing our clients' investments with integrity. 
+      <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6">
+              <div class="content">
+                <h2>
+                  Building Trust Through Transparency
+                </h2>
+                <p class="text-secondary">
+                  At Gold Group Limited, our priority is protecting and growing our clients' investments with integrity.
                   We maintain a strong, debt-free balance sheet and keep sufficient reserves to operate without reliance on leverage.
-              </p>
-          </div>
-
-          <div class="rounded-4 shadow-sm overflow-hidden" style="width: 100%; max-width: 500px; height: 200px;"> <!-- fixed height -->
-            <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
-                alt="About Image"
-                class="w-100 h-100"
-                style="object-fit: cover;">
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="rounded-4 shadow-sm overflow-hidden">
+                <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
+                  alt="About Image">
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      
-      
-      <div class="tab-pane fade py-2 py-md-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-        <div class="d-flex flex-column flex-md-row align-items-center">
-          <div class="col-md-6 mb-4 mb-md-0 me-0 me-md-5">
-              <h2 class="mb-5">
+
+
+        <div class="tab-pane fade py-2 py-md-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 content">
+              <h2>
                 Investing in Growth, Together
               </h2>
               <p class="text-secondary mb-0">
@@ -112,15 +115,16 @@ get_header();
 
                 Our people play a central role in this mission. We encourage our team to make a positive difference both in the workplace and beyond, fostering a culture of responsibility and care. For our clients, this means working with a firm that is not only focused on markets, but also on long-term impact and shared success.
               </p>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="rounded-4 shadow-sm overflow-hidden">
+                <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
+                  alt="About Image">
+              </div>
+            </div>
           </div>
+        </div>
 
-          <div class="rounded-4 shadow-sm overflow-hidden" style="width: 100%; max-width: 500px; height: 200px;"> <!-- fixed height -->
-            <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
-                alt="About Image"
-                class="w-100 h-100"
-                style="object-fit: cover;">
-          </div>
-        </div>  
       </div>
     </div>
   </div>

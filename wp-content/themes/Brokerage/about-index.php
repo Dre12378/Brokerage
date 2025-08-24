@@ -38,30 +38,34 @@ get_header();
       </div>
     </div>
   </div>
-  <nav class="container px-0">
-    <div class="row gx-0">
-      <div class="col-12">
-        <div class="nav nav-tabs border-0 border-bottom w-100" id="nav-tab" role="tablist">
-          <!-- <button class="nav-link active flex-fill text-center border-0 border-bottom border-primary"  -->
-           <button class="nav-link active flex-fill text-center border-0 border-bottom"
-                  id="nav-home-tab" 
-                  data-bs-toggle="tab" 
-                  data-bs-target="#nav-home" 
-                  type="button" role="tab" 
-                  aria-controls="nav-home" 
-                  aria-selected="true">
-            <h6>Who We Are</h6> 
-          </button>
+  
+  <!--  -->
+  <nav class="container-fluid px-0">
+    <div class="wrapper">
+      <div class="row gx-0">
+        <div class="col-12">
+          <div class="nav nav-tabs border-0 border-bottom w-100" id="nav-tab" role="tablist">
+            <!-- <button class="nav-link active flex-fill text-center border-0 border-bottom border-primary"  -->
+            <button class="nav-link active flex-fill text-center border-0 border-bottom"
+                    id="nav-home-tab" 
+                    data-bs-toggle="tab" 
+                    data-bs-target="#nav-home" 
+                    type="button" role="tab" 
+                    aria-controls="nav-home" 
+                    aria-selected="true">
+              <h6>Who We Are</h6> 
+            </button>
 
-          <button class="nav-link flex-fill text-center border-0 border-bottom" 
-                  id="nav-profile-tab" 
-                  data-bs-toggle="tab" 
-                  data-bs-target="#nav-profile" 
-                  type="button" role="tab" 
-                  aria-controls="nav-profile" 
-                  aria-selected="false">
-            <h6>Our Commitment</h6> 
-          </button>
+            <button class="nav-link flex-fill text-center border-0 border-bottom" 
+                    id="nav-profile-tab" 
+                    data-bs-toggle="tab" 
+                    data-bs-target="#nav-profile" 
+                    type="button" role="tab" 
+                    aria-controls="nav-profile" 
+                    aria-selected="false">
+              <h6>Our Commitment</h6> 
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -71,64 +75,59 @@ get_header();
 
 <!-- TRUST STRIP -->
 <section class="bg-white">
-  <div class="container py-5">
+  <div class="container-fluid py-5">
     <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade active show py-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <div>
-              <p class="lead text-secondary mb-4">
+
+      <div class="tab-pane fade active show py-2 py-md-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0 me-0 me-md-5">
+              <h2 class="mb-5">
                 Building Trust Through Transparency
-              </p>
+              </h2>
               <p class="text-secondary mb-0">
-                At Gold Group Limited, our priority is protecting and growing our clients' investments with integrity. We maintain a strong, debt-free balance sheet and keep sufficient reserves to operate without reliance on leverage. Unlike traditional institutions, we do not take deposits, issue loans, or engage in speculative borrowing. As a state-certified trust firm, a publicly traded company, and a registered investment advisor, we provide clients with confidence backed by multiple levels of oversight and accountability.
+                  At Gold Group Limited, our priority is protecting and growing our clients' investments with integrity. 
+                  We maintain a strong, debt-free balance sheet and keep sufficient reserves to operate without reliance on leverage.
               </p>
-            </div>
           </div>
-          <div class="tab-pane fade py-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <p class="lead text-secondary mb-4">
-              Investing in Growth, Together
-            </p>
-            <p class="text-secondary mb-0">
-              Gold Group Limited believes in more than just financial returns—we are committed to building stronger, more resilient communities. Through sustainable practices, forward-thinking strategies, and active participation in local initiatives, we help shape a future that benefits everyone.
 
-              Our people play a central role in this mission. We encourage our team to make a positive difference both in the workplace and beyond, fostering a culture of responsibility and care. For our clients, this means working with a firm that is not only focused on markets, but also on long-term impact and shared success.
-            </p>
+          <div class="rounded-4 shadow-sm overflow-hidden" style="width: 100%; max-width: 500px; height: 200px;"> <!-- fixed height -->
+            <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
+                alt="About Image"
+                class="w-100 h-100"
+                style="object-fit: cover;">
           </div>
+        </div>
+      </div>
+      
+      
+      <div class="tab-pane fade py-2 py-md-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="d-flex flex-column flex-md-row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0 me-0 me-md-5">
+              <h2 class="mb-5">
+                Investing in Growth, Together
+              </h2>
+              <p class="text-secondary mb-0">
+                Gold Group Limited believes in more than just financial returns—we are committed to building stronger, more resilient communities. Through sustainable practices, forward-thinking strategies, and active participation in local initiatives, we help shape a future that benefits everyone.
+
+                Our people play a central role in this mission. We encourage our team to make a positive difference both in the workplace and beyond, fostering a culture of responsibility and care. For our clients, this means working with a firm that is not only focused on markets, but also on long-term impact and shared success.
+              </p>
+          </div>
+
+          <div class="rounded-4 shadow-sm overflow-hidden" style="width: 100%; max-width: 500px; height: 200px;"> <!-- fixed height -->
+            <img src="http://localhost:8881/wp-content/uploads/2025/08/Building-Trust-Through-Transparency-scaled.jpg"
+                alt="About Image"
+                class="w-100 h-100"
+                style="object-fit: cover;">
+          </div>
+        </div>  
+      </div>
     </div>
-
-
-    <!-- <div class="mb-5">
-      <h2 class="fw-bold">
-        Who We Are
-      </h2>
-      <p class="lead text-secondary mb-4">
-        Building Trust Through Transparency
-      </p>
-      <p class="text-secondary mb-0">
-        At Gold Group Limited, our priority is protecting and growing our clients' investments with integrity. We maintain a strong, debt-free balance sheet and keep sufficient reserves to operate without reliance on leverage. Unlike traditional institutions, we do not take deposits, issue loans, or engage in speculative borrowing. As a state-certified trust firm, a publicly traded company, and a registered investment advisor, we provide clients with confidence backed by multiple levels of oversight and accountability.
-      </p>
-    </div>
-    
-    <div class="mb-5">
-      <h2 class="fw-bold">
-        Our Commitment
-      </h2>
-      <p class="lead text-secondary mb-4">
-        Investing in Growth, Together
-      </p>
-      <p class="text-secondary mb-0">
-        Gold Group Limited believes in more than just financial returns—we are committed to building stronger, more resilient communities. Through sustainable practices, forward-thinking strategies, and active participation in local initiatives, we help shape a future that benefits everyone.
-
-        Our people play a central role in this mission. We encourage our team to make a positive difference both in the workplace and beyond, fostering a culture of responsibility and care. For our clients, this means working with a firm that is not only focused on markets, but also on long-term impact and shared success.
-      </p>
-    </div> -->
-    
-
   </div>
 </section>
 
 <!-- CTA BAND -->
 <section class="bg-primary text-white">
-  <div class="container py-5">
+  <div class="container-fluid py-5">
     <div class="row align-items-center">
       <div class="col-lg-8">
         <h3 class="fw-bold mb-2">Ready to modernize your brokerage?</h3>
